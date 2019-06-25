@@ -1,0 +1,3 @@
+<launch>
+  <node name="waypoint_writer" pkg="waypoint_writer" type="waypoint_writer" output="screen"/>
+</launch>
