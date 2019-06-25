@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="demo_map_markers" type="demo_map_markers" pkg="demo_map_markers" output="screen">
+    <rosparam file="$(find demo_map_markers)/config/coords.yaml" command="load"/>
+  </node>
+
+</launch>
